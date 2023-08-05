@@ -5,6 +5,7 @@
             <mod-button @click="$router.push('/')">Главная</mod-button>
             <mod-button @click="$router.push('/posts')">Посты</mod-button>
             <mod-button @click="$router.push('/about')">О сайте</mod-button>
+            <mod-button @click="$router.push('/store')">Store</mod-button>
         </div>
     </div>
 </template>

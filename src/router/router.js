@@ -4,6 +4,7 @@ import MainPage from '@/pages/MainPage';
 import PostsPage from '@/pages/PostsPage';
 import AboutPage from '@/pages/AboutPage';
 import SinglePostPage from '@/pages/SinglePostPage';
+import PostPageWithStore from '@/pages/PostPageWithStore';
 
 const routes = [
     {
@@ -21,6 +22,10 @@ const routes = [
     {
         path: '/about',
         component: AboutPage
+    },
+    {
+        path: '/store',
+        component: PostPageWithStore
     },
 ];
 

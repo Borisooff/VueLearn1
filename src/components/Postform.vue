@@ -7,6 +7,7 @@
         class="input"
         type="text"
         placeholder="Название"
+        v-focus
       />
       <mod-input
         v-model="post.body"

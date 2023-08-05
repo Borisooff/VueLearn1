@@ -12,10 +12,10 @@ export default {
 
 <style scoped>
 .button {
-  display: block;
   background-color: teal;
   padding: 10px;
   border: none;
   color: #fff;
+  cursor: pointer;
 }
 </style>

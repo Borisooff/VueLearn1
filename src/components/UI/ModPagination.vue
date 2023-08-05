@@ -3,9 +3,9 @@
     <div
       class="pagination__number"
       :class="{
-        'pagination__number-active': page === pageNumber,
+        'pagination__number-active': currentPage === pageNumber,
       }"
-      v-for="pageNumber in totlaPages"
+      v-for="pageNumber in totalPages"
       :key="pageNumber"
       @click="changePage(pageNumber)"
     >
@@ -27,8 +27,8 @@ export default {
     },
     methods:{
       changePage(pageNumber){
-        this.$emit('page-change', pageNumber)
-      }
+        this.$emit('change', pageNumber)
+      },
     }
 };
 </script>

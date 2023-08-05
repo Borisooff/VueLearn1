@@ -10,6 +10,7 @@
         {{ post.body }}
       </div>
     </div>
+    <mod-button @click="$router.push(`/posts/${post.id}`)">Открыть</mod-button>
     <mod-button @click="$emit('delete', post)" style='margin-left: auto' class="button-delete"> Удалить </mod-button>
   </div>
 </template>
